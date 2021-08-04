@@ -2,3 +2,99 @@ img {
     max-width: 100%;
     width: 675px;
 }
+header, main, footer {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+body{
+    background-color: #EAC926;
+    ;
+}
+
+.search-bar{
+    color: #666;
+    margin: 10px;
+    background-color: hsl(0, 0%, 92%);
+    margin-right: 142px;
+}
+
+.oferta-cuotas{
+    margin-left: 40px;
+}
+
+header nav ul li a{ 
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+header nav ul{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p.precios{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p.descuentos{
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h5{
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+
+.burger-menu{
+    padding: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 148px;
+    color: #ebebeb;
+    background-color: #1259c3;
+}
+
+.credit-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3
+}
+
+.gift{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3
+}
+
+.security-shield{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3
+}
+
+.cuotas{
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    padding: 50px;
+}
+
+.another-helpful-bar{
+    margin: 0px 0px;
+    padding: 0pc 0pc 0px 0px;
+}
