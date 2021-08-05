@@ -10,7 +10,6 @@ header, main, footer {
 
 body{
     background-color: #EAC926;
-    ;
 }
 
 .search-bar{
@@ -67,19 +66,7 @@ h5{
     background-color: #1259c3;
 }
 
-.credit-card{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #1259c3
-}
-
-.gift{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #1259c3
-}
-
-.security-shield{
+.footer-texts{
     font-size: 2em;
     margin-bottom: 10px;
     color: #1259c3
@@ -91,10 +78,11 @@ h5{
 
 footer{
     background-color: white;
-    padding: 50px;
+    padding: 35px;
+    border: solid 20px #ebebeb;
 }
 
 .another-helpful-bar{
-    margin: 0px 0px;
-    padding: 0pc 0pc 0px 0px;
+    margin: 0px;
+    padding: 0px;
 }
