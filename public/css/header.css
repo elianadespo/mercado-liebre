@@ -11,29 +11,32 @@ header{
 
 .logotipo img{
     background-color: #EAC926;
-    width: 130px;
+    width: 50%;
     margin: 18px 0px 1px 15px;
 }
 
 .search-bar{
+    width: 35%;
+    padding: 5px;
     color: #666;
-    margin: 10px;
-    background-color: hsl(0, 0%, 92%);
-    margin-right: 165px;
-    border: 1px solid #666;
+    background-color: #FFF;
+    margin: -30px 10px 0px 180px;
+    border-radius: 5px;
     line-height: 10px;
     display:block;
 }
 
 .search{
-    margin: -24px 128px 0px 160px;
-    background-color: #ebebeb;
-    border: 1px solid #666;
+    width: 4%;
+    color: #666;
+    margin: -20px 100px 0px 278px;
+    background-color: #FFF;
     display: block;
 }
 
 p.oferta-cuotas{
     text-align:center;
+    margin-top: 50px;
 }
 
 header nav ul li a{ 
@@ -66,6 +69,7 @@ header nav ul{
     }
     .search{
         margin: -24px 170px 0px 160px;
+        width: 4%
     }
     .search-bar{
         margin-right: 188px
@@ -88,15 +92,93 @@ header nav ul{
     }
     
 }
+/*TABLET*/ 
 
-@media (min-width: 769px){
+@media (min-width: 768px){
+    header{
+        width:100%;
+    }
+
     .logotipo img{
-        width: 200px
+        width: 33%;
     }
     .search{
-        margin: -24px 578px 0px 160px;
+        width: 2%;
+        margin: -17px 0px 0px 445px
+        
     }
     .search-bar{
-        margin-right: 598px
+        width: 20%;
+        text-align: left;
+        margin: -50px 0px 0px 280px;
+    }
+
+    p.oferta-cuotas{
+        width: 22%;
+        font-size: 17px;
+        margin: -29px 0px 0px 540px
+        
+    }
+
+    header nav {
+
+        margin-top: 60px;
+        display: flex;
+        font-size: 17px;
+        justify-content: space-between;
+    }
+    header nav ul{
+        display: flex;
+    }
+
+    header nav ul li{
+        margin: 0px 6px;
+    }
+}
+/* DESKTOP */ 
+@media (min-width: 1024px){
+    header{
+        width:100%;
+    }
+    
+    .logotipo img{
+        width: 33%;
+        display:flex; 
+    }
+    .search{
+        width: 1%;
+        margin: -17px 0px 0px 600px;
+        display: flex;
+        border-radius: 1px solid #666;
+        
+    }
+    .search-bar{
+        width: 20%;
+        text-align: left;
+        margin: -50px 0px 0px 380px;
+        display:flex;
+    }
+
+    p.oferta-cuotas{
+        width: 33%;
+        font-size: 17px;
+        margin: -17px 0px 0px 650px;
+        display: flex;
+        
+    }
+
+    header nav {
+
+        margin-top: 60px;
+        display: flex;
+        font-size: 17px;
+        justify-content: space-between;
+    }
+    header nav ul{
+        display: flex;
+    }
+
+    header nav ul li{
+        margin: 0px 20px;
     }
 }
