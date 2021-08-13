@@ -1,0 +1,102 @@
+@media (min-width: 320px) {
+    a, li{
+        display: none
+    }
+
+
+header{
+    background-color: #EAC926;
+    padding: 1px;
+}
+
+.logotipo img{
+    background-color: #EAC926;
+    width: 130px;
+    margin: 18px 0px 1px 15px;
+}
+
+.search-bar{
+    color: #666;
+    margin: 10px;
+    background-color: hsl(0, 0%, 92%);
+    margin-right: 165px;
+    border: 1px solid #666;
+    line-height: 10px;
+    display:block;
+}
+
+.search{
+    margin: -24px 128px 0px 160px;
+    background-color: #ebebeb;
+    border: 1px solid #666;
+    display: block;
+}
+
+p.oferta-cuotas{
+    text-align:center;
+}
+
+header nav ul li a{ 
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+header nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.burger-menu{
+    padding: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 135px;
+    margin-right: 133px;
+    color: #ebebeb;
+    background-color: #1259c3;
+    border-radius: 6px;
+}
+}
+
+@media (min-width: 361px){
+
+    a, li, h5{
+        display: flex;
+    }
+    .search{
+        margin: -24px 170px 0px 160px;
+    }
+    .search-bar{
+        margin-right: 188px
+    }
+    
+    nav{
+        margin-bottom: 1px;
+    }
+
+    .login-bar{
+        margin-bottom: 15px;
+    }
+
+    .logotipo img{
+        width: 100px
+    }
+
+    .burger-menu{
+        display: none
+    }
+    
+}
+
+@media (min-width: 769px){
+    .logotipo img{
+        width: 200px
+    }
+    .search{
+        margin: -24px 578px 0px 160px;
+    }
+    .search-bar{
+        margin-right: 598px
+    }
+}

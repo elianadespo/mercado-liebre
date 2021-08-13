@@ -1,0 +1,50 @@
+@media (min-width: 320px) {
+    a, li, h5{
+        display: none
+    }
+}
+
+.articulos, img{
+    background-color: white;
+
+}
+
+div.articulos{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+    box-sizing: border-box;
+}
+.truck{
+    color: green;
+    margin-bottom: 7px
+}
+.truck, .precios, .descuentos{
+    border-top: 1px solid white;
+}
+
+p.precios{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p.descuentos{
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: green
+}
+
+@media (min-width: 361px){
+    a, li, h5{
+        display:flex;
+    }
+
+.home main article {
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+}
+
+

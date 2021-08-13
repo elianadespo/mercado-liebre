@@ -1,0 +1,19 @@
+footer{
+    background-color: white;
+    padding: 10px; 
+    border: solid 10px #ebebeb;
+}
+
+.footer-texts{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.cuotas{
+    text-align: center;
+}
+
+.copyright{
+    margin: 50px 10px 0px 0px;
+}

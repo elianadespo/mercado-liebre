@@ -1,15 +1,18 @@
-img {
-    max-width: 100%;
-    width: 675px;
-}
+@import url('./general.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./home.css');
+
+
+/* 
 header, main, footer {
-    
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
-body{
+header{
     background-color: #EAC926;
+    
 }
 
 .search-bar{
@@ -19,10 +22,6 @@ body{
     margin-right: 142px;
 }
 
-.oferta-cuotas{
-    margin-left: 40px;
-}
-
 header nav ul li a{ 
     text-decoration: none;
     list-style: none;
@@ -30,12 +29,67 @@ header nav ul li a{
 }
 
 header nav ul{
-    margin: 0px 0px 10px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.burger-menu{
+    padding: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 148px;
+    color: #ebebeb;
+    background-color: #1259c3;
+}
+
+.another-helpful-bar{
+    margin: 0px;
+    padding: 0px;
+}
+/* body, main? 
+
+
+body, main{
+    background-color: #ebebeb;
+}
+
+main{
+    width: 90%;
+}
+
+.articulos, img{
+    background-color: white;
+    width: 90%;
+}
+
+.articulos{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+}
+
+.truck{
+    color: green
+}
+
+.oferta-cuotas{
+    margin-left: 40px;
+}
+
+
+.logotipo{
+    padding: 5px;
+    margin-right: 180px
 }
 
 h2 {
     font-size: 24px;
+}
+
+h5{
+    font-size: 16px;
+    margin-top: 2px;
 }
 
 p.precios{
@@ -48,41 +102,28 @@ p.descuentos{
     font-size: 16px;
     margin-top: 2px;
     margin-bottom: 2px;
-}
-
-h5{
-    font-size: 16px;
-    margin-top: 2px;
-}
-
-
-.burger-menu{
-    padding: 1em;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 120px;
-    margin-right: 148px;
-    color: #ebebeb;
-    background-color: #1259c3;
-}
-
-.footer-texts{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #1259c3
+    color: green
 }
 
 .cuotas{
     text-align: center;
 }
 
+
+/* footer 
+
 footer{
     background-color: white;
-    padding: 35px;
-    border: solid 20px #ebebeb;
+    padding: 10px; 
+    border: solid 10px #ebebeb;
 }
 
-.another-helpful-bar{
-    margin: 0px;
-    padding: 0px;
+.footer-texts{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.copyright{
+    margin: 50px 10px 0px 0px;
 }
