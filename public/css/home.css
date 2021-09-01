@@ -1,8 +1,14 @@
-@media (min-width: 320px) {
+.home main{
+    padding: 5px;
+}
+
+.home main article{
+    background-color: white;
+}
     a, li, h5{
         display: none
     }
-}
+
 
 .articulos, img{
     background-color: white;
@@ -39,9 +45,6 @@ div.articulos{
     right: 20px;
     top: -15px;
 }
-.truck, .precios, .descuentos{
-    border-top: 1px solid white;
-}
 
 p.precios{
     font-size: 18px;
@@ -58,24 +61,6 @@ p.descuentos{
     flex-grow: 0.7;
 }
 
-@media (min-width: 361px){
-    a, li, h5{
-        display:flex;
-    }
-
-.home main article {
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-
-.home main section{
-    display: flex;
-    flex-wrap: wrap;
-}
-.home main section h4{
-    width: 100%;
-}
-}
 
 
 @media (min-width: 768px){

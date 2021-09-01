@@ -1,13 +1,94 @@
-@media (min-width: 320px) {
+header{
+    background-color: #EAC926;
+    width:100%;
+    padding: 5px;
+}
+
+
+.busqueda {
+    display: flex;
+    width: 30%;
+    border-radius: 15px;
+    padding-top: 20px;
+    margin: -55px 0px 0px 0px;
+    position: absolute;
+    right: 30px;
+} 
     a, li{
         display: none
     }
-
-
-header{
-    background-color: #EAC926;
-    padding: 1px;
+    header{
+        background-color: #EAC926;
+        width:100%;
+        padding: 15px;
+    }
+    
+    
+    .busqueda {
+        display: flex;
+        width: 30%;
+        border-radius: 15px;
+        padding-top: 20px;
+        margin: -55px 0px 0px 0px;
+        position: absolute;
+        right: 30px;
+    } 
+        a, li{
+            display: none
+        }
+    
+        .busqueda input {
+        width: 100%;
+        padding: 2px;
+        border: 1px solid white;
+        border-radius: 2px
+    }
+    
+     .busqueda button{
+         background-color: white;
+         border: 1px solid white;
+         border-radius: 2px;
+    
+     }
+    
+    
+    .logotipo img{
+        background-color: #EAC926;
+        width: 50%;
+        margin: 18px 0px 1px 15px;
+    }
+    
+    p.oferta-cuotas{
+        text-align:center;
+        margin-top: 50px;
+    }
+    
+    
+    .burger-menu{
+        padding: 1em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 135px;
+        margin-right: 133px;
+        color: #ebebeb;
+        background-color: #1259c3;
+        border-radius: 6px;
+    }
+    
+    .busqueda input {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 2px
 }
+
+ .busqueda button{
+     background-color: white;
+     border: 1px solid white;
+     border-radius: 2px;
+
+ }
+
 
 .logotipo img{
     background-color: #EAC926;
@@ -15,40 +96,11 @@ header{
     margin: 18px 0px 1px 15px;
 }
 
-.search-bar{
-    width: 35%;
-    padding: 5px;
-    color: #666;
-    background-color: #FFF;
-    margin: -30px 10px 0px 180px;
-    border-radius: 5px;
-    line-height: 10px;
-    display:block;
-}
-
-.search{
-    width: 4%;
-    color: #666;
-    margin: -20px 100px 0px 278px;
-    background-color: #FFF;
-    display: block;
-}
-
 p.oferta-cuotas{
     text-align:center;
     margin-top: 50px;
 }
 
-header nav ul li a{ 
-    text-decoration: none;
-    list-style: none;
-    color:black;
-}
-
-header nav ul{
-    margin: 0px;
-    padding: 0px;
-}
 
 .burger-menu{
     padding: 1em;
@@ -60,38 +112,8 @@ header nav ul{
     background-color: #1259c3;
     border-radius: 6px;
 }
-}
 
-@media (min-width: 361px){
 
-    a, li, h5{
-        display: flex;
-    }
-    .search{
-        margin: -24px 170px 0px 160px;
-        width: 4%
-    }
-    .search-bar{
-        margin-right: 188px
-    }
-    
-    nav{
-        margin-bottom: 1px;
-    }
-
-    .login-bar{
-        margin-bottom: 15px;
-    }
-
-    .logotipo img{
-        width: 100px
-    }
-
-    .burger-menu{
-        display: none
-    }
-    
-}
 /*TABLET*/ 
 
 @media (min-width: 768px){
