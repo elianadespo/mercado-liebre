@@ -68,7 +68,6 @@ p.descuentos{
         width: 40%;
         background-color: white;
         margin-bottom: 10px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     
     .home main section{
@@ -83,14 +82,40 @@ p.descuentos{
 }
 
 @media (min-width: 1024px){
+    div.articulos{
+        margin-bottom: 0px;
+        border-bottom: solid 0px white;
+    }
 
     .home main section article {
         width: 20%;
         background-color: white;
-        margin-bottom: 10px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: all ease .3s;
     }
+    .home main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+
     .home main section{
         justify-content: space-around;
+    }
+
+    .home main section article .articulos .descripcion{
+        height: 0;
+        transition: all ease .3s;
+        overflow: hidden;
+        color: #adadad;
+        font-size: 16px;
+    }
+    .home main section article:hover .data .descripcion{
+        height: 20px;
+        margin-top: 10px;
+    }
+    .home main section article .data i{
+        transition: all ease .3s;
+    }
+    .home main section article:hover .data i{
+        box-shadow: 0 0 5px #39b54a;
+        transform: rotate(360deg);
     }
 }

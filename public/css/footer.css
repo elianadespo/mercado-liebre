@@ -17,3 +17,29 @@ footer{
 .copyright{
     margin: 50px 10px 0px 0px;
 }
+@media (min-width: 1024px){
+
+    .content-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .content-footer section{
+        width: 33%;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .copyright{
+    margin: 0px;
+    }
+    .content-footer section div i{
+        transition: color ease .3s;
+        color: blue;
+    }
+    .content-footer section div i:hover{
+        color: #03264C;
+    }
+}
