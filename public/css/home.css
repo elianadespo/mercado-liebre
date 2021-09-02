@@ -1,13 +1,12 @@
 .home main{
     padding: 5px;
+    width: 94%;
+    margin: 0 auto;
 }
 
 .home main article{
     background-color: white;
 }
-    a, li, h5{
-        display: none
-    }
 
 
 .articulos, img{
@@ -18,17 +17,17 @@
 div.articulos{
     padding: 5px;
     margin-bottom: 10px;
-    border-top: solid 1px #ebebeb;
     border-bottom: solid 12px white;
     box-sizing: border-box;
 }
-
 .home main section article .price-discount{
     display: flex;
 }
 
 .data{
     position: relative;
+    padding: 5px;
+    border-top: solid 1px #ebebeb;
 }
 .truck{
     color: green;
@@ -63,7 +62,7 @@ p.descuentos{
 
 
 
-@media (min-width: 768px){
+@media (min-width: 769px){
 
     .home main section article {
         width: 40%;

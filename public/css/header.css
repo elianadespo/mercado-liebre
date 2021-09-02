@@ -12,53 +12,35 @@ header{
     padding-top: 20px;
     margin: -55px 0px 0px 0px;
     position: absolute;
-    right: 30px;
+    right: 10px;
+    align-items: center;
 } 
-    a, li{
-        display: none
-    }
-    header{
+
+header{
         background-color: #EAC926;
         width:100%;
         padding: 15px;
     }
     
-    
-    .busqueda {
-        display: flex;
-        width: 30%;
-        border-radius: 15px;
-        padding-top: 20px;
-        margin: -55px 0px 0px 0px;
-        position: absolute;
-        right: 30px;
-    } 
-        a, li{
+a, li{
             display: none
         }
+
     
-        .busqueda input {
-        width: 100%;
-        padding: 2px;
-        border: 1px solid white;
-        border-radius: 2px
-    }
-    
-     .busqueda button{
+.busqueda button{
          background-color: white;
          border: 1px solid white;
          border-radius: 2px;
     
      }
     
-    
-    .logotipo img{
+.logotipo img{
         background-color: #EAC926;
         width: 50%;
         margin: 18px 0px 1px 15px;
     }
     
-    p.oferta-cuotas{
+p.oferta-cuotas{
         text-align:center;
         margin-top: 50px;
     }
@@ -69,70 +51,49 @@ header{
         margin-top: 30px;
         margin-bottom: 30px;
         margin-left: 135px;
-        margin-right: 133px;
+        margin-right: 120px;
         color: #ebebeb;
         background-color: #1259c3;
         border-radius: 6px;
     }
     
-    .busqueda input {
+.busqueda input {
     width: 100%;
-    padding: 2px;
     border: 1px solid white;
     border-radius: 2px
 }
 
- .busqueda button{
-     background-color: white;
-     border: 1px solid white;
-     border-radius: 2px;
 
- }
-
-
-.logotipo img{
-    background-color: #EAC926;
-    width: 50%;
-    margin: 18px 0px 1px 15px;
-}
-
-p.oferta-cuotas{
-    text-align:center;
-    margin-top: 50px;
-}
-
-
-.burger-menu{
-    padding: 1em;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 135px;
-    margin-right: 133px;
-    color: #ebebeb;
-    background-color: #1259c3;
-    border-radius: 6px;
-}
 
 
 /*TABLET*/ 
 
-@media (min-width: 768px){
-    header{
-        width:100%;
+@media (min-width: 769px){
+
+    
+    .busqueda {
+        width: 55%;
+
+    } 
+
+    .busqueda input {
+
+        padding: 10px;
+
+    }
+    .burger-menu{
+        display: none
     }
 
-    .logotipo img{
+    a, li{
+          display: contents;
+         color: #000;
+           
+    }
+
+
+   .logotipo img{
         width: 33%;
-    }
-    .search{
-        width: 2%;
-        margin: -17px 0px 0px 445px
-        
-    }
-    .search-bar{
-        width: 20%;
-        text-align: left;
-        margin: -50px 0px 0px 280px;
     }
 
     p.oferta-cuotas{
@@ -142,20 +103,21 @@ p.oferta-cuotas{
         
     }
 
-    header nav {
-
+   header nav {
         margin-top: 60px;
         display: flex;
         font-size: 17px;
         justify-content: space-between;
-    }
-    header nav ul{
-        display: flex;
+        margin: 20px 10px 20px 10px;
     }
 
-    header nav ul li{
-        margin: 0px 6px;
+    header nav ul{
+        display: flex;
+        
     }
+
+
+
 }
 /* DESKTOP */ 
 @media (min-width: 1024px){
@@ -166,19 +128,6 @@ p.oferta-cuotas{
     .logotipo img{
         width: 33%;
         display:flex; 
-    }
-    .search{
-        width: 1%;
-        margin: -17px 0px 0px 600px;
-        display: flex;
-        border-radius: 1px solid #666;
-        
-    }
-    .search-bar{
-        width: 20%;
-        text-align: left;
-        margin: -50px 0px 0px 380px;
-        display:flex;
     }
 
     p.oferta-cuotas{

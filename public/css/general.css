@@ -1,9 +1,10 @@
 .home{
     background-color: #ebebeb;
-    font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 h2 {
     font-size: 24px;
 }
@@ -11,4 +12,20 @@ h2 {
 h5{
     font-size: 16px;
     margin-top: 2px;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+} 
+input, button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button :hover{
+    cursor: pointer;
 }

@@ -1,0 +1,51 @@
+.registro-login{
+    background-color: #ebebeb;
+}
+
+.registro-login .contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+
+}
+
+.registro-login .contenedor h3{
+    text-align: center;
+    margin: 20px 0;
+}
+.registro-login .contenedor .container-input{
+    display: flex;
+    margin: 20px 0;
+
+}
+
+.registro-login .contenedor .container-input .text{
+    width: 100%;
+}
+
+.registro-login .contenedor .container-input .radio{
+    margin: 0 20px;
+}
+
+.registro-login .contenedor .container-input .check{
+    margin: 0px 10px;
+}
+
+.registro-login .contenedor .container-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    
+}
+
+.container-buttons button{
+    color: white;
+}
+
+.btn-verde{
+    background-color: #39b54a;
+}
+
+.btn-rojo{
+    background-color: red;
+}
