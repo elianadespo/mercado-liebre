@@ -1,66 +1,69 @@
 header{
-    background-color: #EAC926;
-    width:100%;
+    background-color: #eac926;
     padding: 5px;
 }
-
+.registro-login{
+    margin: 0px;
+}
+.home{
+   padding: 0px;
+   margin: 0px;
+}
 
 .busqueda {
-    display: flex;
-    width: 30%;
-    border-radius: 15px;
-    padding-top: 20px;
-    margin: -55px 0px 0px 0px;
-    position: absolute;
-    right: 10px;
-    align-items: center;
+   display: flex;
+   width: 30%;
+   border-radius: 15px;
+   padding-top: 20px;
+   margin: -55px 0px 0px 0px;
+   position: absolute;
+   right: 10px;
+   align-items: center;
 } 
 
-header{
-        background-color: #EAC926;
-        width:100%;
-        padding: 15px;
-    }
-    
-a, li{
-            display: none
-        }
 
-    
+   
+a, li{
+           display: none
+       }
+
+   
 .busqueda button{
-         background-color: white;
-         border: 1px solid white;
-         border-radius: 2px;
-    
-     }
-    
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+   
+    }
+   
 .logotipo img{
-        background-color: #EAC926;
-        width: 50%;
-        margin: 18px 0px 1px 15px;
-    }
-    
+       background-color: #EAC926;
+       width: 50%;
+       margin: 18px 0px 1px 15px;
+   }
+   
 p.oferta-cuotas{
-        text-align:center;
-        margin-top: 50px;
-    }
-    
-    
-    .burger-menu{
-        padding: 1em;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 135px;
-        margin-right: 120px;
-        color: #ebebeb;
-        background-color: #1259c3;
-        border-radius: 6px;
-    }
-    
+       text-align:center;
+       margin-top: 50px;
+   }
+   
+   
+   .burger-menu{
+       color: #ebebeb;
+       background-color: #1259c3;
+       border-radius: 6px;
+       padding: 10px;
+       font-size: 30px;
+       align-items: center;
+       width: 8%;
+       max-width: 8%;
+       margin: 0 auto;
+   }
+
+   
 .busqueda input {
-    width: 100%;
-    border: 1px solid white;
-    border-radius: 2px
+   width: 100%;
+   border: 1px solid white;
+   border-radius: 2px
 }
 
 
@@ -70,86 +73,101 @@ p.oferta-cuotas{
 
 @media (min-width: 769px){
 
-    
-    .busqueda {
-        width: 55%;
+   
+   .busqueda {
+       width: 55%;
 
-    } 
+   } 
 
-    .busqueda input {
+   .busqueda input {
 
-        padding: 10px;
+       padding: 10px;
 
-    }
-    .burger-menu{
-        display: none
-    }
+   }
+   .burger-menu{
+       display: none
+   }
 
-    a, li{
-          display: contents;
-         color: #000;
-           
-    }
+   a, li{
+         display: contents;
+        color: #000;
+          
+   }
 
 
-   .logotipo img{
-        width: 33%;
-    }
+  .logotipo img{
+       width: 33%;
+   }
 
-    p.oferta-cuotas{
-        width: 22%;
-        font-size: 17px;
-        margin: -29px 0px 0px 540px
-        
-    }
+   p.oferta-cuotas{
+       width: 22%;
+       font-size: 17px;
+       margin: -29px 0px 0px 540px
+       
+   }
 
-   header nav {
-        margin-top: 60px;
-        display: flex;
-        font-size: 17px;
-        justify-content: space-between;
-        margin: 20px 10px 20px 10px;
-    }
+  header nav {
+       margin-top: 60px;
+       display: flex;
+       font-size: 17px;
+       justify-content: space-between;
+       margin: 20px 10px 20px 10px;
+   }
 
-    header nav ul{
-        display: flex;
-        
-    }
+   header nav ul{
+       display: flex;
+       
+   }
 
 
 
 }
 /* DESKTOP */ 
 @media (min-width: 1024px){
-    header{
-        width:100%;
-    }
     
-    .logotipo img{
-        width: 33%;
-        display:flex; 
-    }
-
-    p.oferta-cuotas{
-        width: 33%;
-        font-size: 17px;
-        margin: -17px 0px 0px 650px;
-        display: flex;
+    header{
+        padding: 15px;
+        }
         
-    }
 
-    header nav {
+   .header-first-line{
+       display: flex;
+       justify-content: space-between
+   }
 
-        margin-top: 60px;
-        display: flex;
-        font-size: 17px;
-        justify-content: space-between;
-    }
-    header nav ul{
-        display: flex;
-    }
+   .logotipo img{
+       width: 100%;
+       display:flex; 
+       margin: 0px 0px 0px 0px;
+   }
+   .logotipo{
+       margin: 0px;
+   }
 
-    header nav ul li{
-        margin: 0px 20px;
-    }
+   .busqueda {
+       margin: -1px 0px 0px 0px;
+       
+   } 
+
+   p.oferta-cuotas{
+       width: 33%;
+       font-size: 17px;
+       display: flex;
+       margin: 30px 0px;
+   }
+
+
+   header nav {
+       margin-top: 60px;
+       display: flex;
+       justify-content: space-around;
+   }
+   header nav ul{
+       margin: 10px;
+   }
+
+   header nav ul li{
+       display: flex;
+       padding: 10px
+   }
 }
